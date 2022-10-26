@@ -16,7 +16,8 @@
     <link rel="shortcut icon" href="https://app.superphone.io/favicon.ico" type="image/x-icon">
     
     <!--These are the stylesheets for the page-->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
     <link rel="stylesheet" href="https://superphone.io/f/assets/stylesheets/intlTelInput.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -94,7 +95,8 @@
 }
         
         *{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Slab', serif;
         }    
 
     button#submitButton {
@@ -107,6 +109,7 @@
     border: 1px solid white;
     border-radius: 0px;
     background: #101010;
+    font-family: roboto;
         }
 
     button#submitButton:hover {
@@ -191,6 +194,38 @@
     color: #ffffff;
         }
 
+        .text-center {
+    color: #ffffff;
+    font-size: 56px;;
+    font-
+        }
+
+        .text-paragraph {
+    color: #ffffff;
+    font-size: 56px;;
+    font-family: roboto;
+    text-align: center;
+    margin-bottom: 50px
+        }
+
+        .image {
+width: 300px;
+align-items: center;
+align-content: center;
+
+    text-align: center;
+    margin-bottom: 100px;;
+        }
+
+        .container {
+
+align-items: center;
+align-content: center;
+
+    text-align: center;
+
+        }
+
     </style>
 </head> 
     
@@ -199,8 +234,14 @@
     <div class="page-center">
     <div class="custom-form">
         <div class="container">
-            <h1 class="text-center" style="font-weight: bold">YOUR NAME HERE</h1>
-            <p class="text-center" style="font-size: 21px">PLEASE ENTER YOUR PHONE NUMBER<br>AND I WILL TEXT YOU RIGHT BACK:</p>
+
+            <img class="image"
+     src="pyrtlogo.png"
+     alt="Van Gogh, Self-portrait.">
+
+
+            <h1 class="text-center" style="font-weight: bold">Here comes an example heading</h1>
+            <p class="text-paragraph" style="font-size: 24px">PYRT will be a complete new leap in metaverse and reality events, organized on the web and on a private island in the Bahamas.</p>
             <form id="addContact" class="form-horizontal" style="min-width: 100%" method="POST" action="#" autocomplete="false" data-parsley-validate>
                 <div class="form-group">
                     <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-4">
@@ -229,3 +270,4 @@
     </div>
 </body>
 </html>
+
