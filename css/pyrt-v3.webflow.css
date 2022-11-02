@@ -71,7 +71,8 @@ button#submitButton {
     position: absolute !important;
     left: 0;
     top: 0;
-    transform: translate(150%,0%);
+    transform: translate(120%,0%);
+    z-index: 50;
   }
   .input_number{
     display: block;
@@ -383,6 +384,9 @@ input:checked + .slider:before {
   .image-6.desktop.tablett.tablet-portrait {
     display: none;
   }
+  .flag-dropdown{
+    transform: translate(130%,0%);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -390,7 +394,13 @@ input:checked + .slider:before {
     margin-top: auto;
     margin-bottom: auto;
   }
-
+  #submitButton{
+    font-size: 15px!important;
+padding: 1.5rem 1.5rem!important;
+  }
+  .flag-dropdown{
+    transform: translate(120%,0%);
+  }
   .cordinates {
     margin-top: auto;
     margin-bottom: auto;
