@@ -18,12 +18,31 @@
 
 }
 
+
+.addContact .input_number {
+
+color: black;
+
+}
+
+
+.placeholder {
+
+  color: black;
+  
+  }
+
+
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
+.phone {
 
+  color: black;
+}
 .body.dark{
   background-image: url('../images/bg2.jpg');
 }
@@ -110,14 +129,22 @@ button#submitButton {
   .parsley-required {
   padding-top: 5px;
   color: #D85959;
+  text-align: center;
+  font-family: Sailec-Bold;
+  margin-left: -40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
       }
   
   .parsley-minlength {
   padding-top: 5px;
   padding-left: 0;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-left: -40px;
+  font-family: Sailec-Bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
       }
   .iti-flag {
    background-image: url("https://superphone.io/f/assets/images/flags.png");
@@ -126,6 +153,8 @@ button#submitButton {
   input#phone:focus {
   box-shadow: 0px 0px 0px;
       }
+
+      
       
   .buto {
   text-align: center;
@@ -419,6 +448,8 @@ padding: 1.5rem 1.5rem!important;
     width: 20px;
     height: 20px;
   }
+
+
   .image-6.desktop.tablett.tablet-portrait.mobile{
     position: fixed;
 left: 0%;
