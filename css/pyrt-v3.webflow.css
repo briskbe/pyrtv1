@@ -19,6 +19,15 @@
 }
 
 
+
+@media screen and (orientation:landscape) {
+ .body {
+
+  height: 1000px;
+ }
+}
+
+
 .addContact .input_number {
 
 color: black;
