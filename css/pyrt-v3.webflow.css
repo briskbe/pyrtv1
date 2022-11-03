@@ -50,9 +50,9 @@ button#submitButton {
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 85%;
   color: white;
-  padding: 8px 45px;
+  padding: 14px 45px;
   font-size: 17px;
   color: rgb(255, 255, 255);
   font-family: 'Source Code Pro', sans-serif;
@@ -77,9 +77,9 @@ button#submitButton {
     margin-right: auto;
   letter-spacing: 1px;
   color: black;
-  padding: 3rem 5rem;
+  padding: 2rem 5rem;
   margin-top: 1rem;
-  width: 75%;
+  width: 85%;
   border: 0px;
   border-bottom: 2px solid white;
   font-size: 17px;
@@ -90,7 +90,7 @@ button#submitButton {
     position: absolute !important;
     left: 0;
     top: 0;
-    transform: translate(120%,0%);
+    transform: translate(80%,0%);
     z-index: 50;
   }
   .input_number{
@@ -275,10 +275,10 @@ button#submitButton {
   transition: .4s;
 }
 input:checked + .slider:before{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 input:checked + .slider {
-  background-color: #EEC3BD;
+  background-color: #000000;
 }
 
 input:focus + .slider {
@@ -344,8 +344,8 @@ input:checked + .slider:before {
   font-family: Neuehaasunica, sans-serif;
   font-weight: 400;
 opacity: 80%;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 27px;
   text-align: center;
   margin-bottom: 3rem;
   width: 100%;
@@ -378,6 +378,7 @@ opacity: 80%;
   display: flex;
   font-weight: bold;
   color: black;
+  margin-top: -10px;
 }
 
 .switchbox span:first-child{
@@ -424,7 +425,7 @@ opacity: 80%;
     display: none;
   }
   .flag-dropdown{
-    transform: translate(130%,0%);
+    transform: translate(80%,0%);
   }
 }
 
@@ -438,7 +439,7 @@ opacity: 80%;
 padding: 1.5rem 1.5rem!important;
   }
   .flag-dropdown{
-    transform: translate(120%,0%);
+    transform: translate(60%,0%);
   }
   .cordinates {
     margin-top: auto;
