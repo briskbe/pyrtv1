@@ -20,6 +20,18 @@
 
 }
 
+@media (orientation: landscape) {
+  .body {
+      height: 70%;
+  }
+}
+@media (orientation: portrait) {
+  .body {
+      width: 100%;
+  }
+}
+
+
 
 .addContact .input_number {
 
