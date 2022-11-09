@@ -53,7 +53,22 @@ color: black;
 }
 .body.dark{
   background-image: url('../images/bg2.jpg');
+  background-size: 800px;
+  min-height: 600px;
 }
+
+
+/* Landscape */
+@media screen and (orientation:landscape) {
+  .copyright-div
+  {
+
+    top: 550px !important;
+  }
+}
+
+
+
 button#submitButton {
   text-transform: uppercase;
   margin-left: auto;
