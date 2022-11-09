@@ -21,13 +21,8 @@
 }
 
 @media (orientation: landscape) {
-  .body {
-      height: 70%;
-  }
-}
-@media (orientation: portrait) {
-  .body {
-      width: 100%;
+  .div-block {
+      margin-bottom: 300px !important;
   }
 }
 
@@ -254,6 +249,8 @@ button#submitButton {
   padding-right: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+
+  
 }
 .switch {
   position: relative;
